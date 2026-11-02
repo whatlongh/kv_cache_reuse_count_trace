@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "whatlongh-annotate_jd059"
+name = "whatlongh-kv_cache_reuse_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出标注平台与数据质量工程师·KV Cache 复用与前缀共享上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://whatlongh.github.io"
-Repository = "https://github.com/whatlongh/annotate_jd059"
-Issues = "https://github.com/whatlongh/annotate_jd059/issues"
+Repository = "https://github.com/whatlongh/kv_cache_reuse_count_trace"
+Issues = "https://github.com/whatlongh/kv_cache_reuse_count_trace/issues"
 
 [project.scripts]
-annotate_jd059 = "annotate_jd059:main"
+kv_cache_reuse_count_trace = "kv_cache_reuse_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["annotate_jd059"]
+py-modules = ["kv_cache_reuse_count_trace"]
